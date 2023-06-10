@@ -15,15 +15,15 @@ function Sidebar() {
           />
         </div>
         <div className="title">
-          <p className="dev">dev</p>
-          <p className="find">Find</p>
+          <p className="dev">Hire</p>
+          <p className="find">TechTalent</p>
         </div>
       </div>
       <div className="headline">
-        Discover and Connect with Skilled Developers.
+      Unlock opportunities to connect with talented developers and foster valuable partnerships.
       </div>
         <div className="description">
-            <a href="https://github.com/shyamtawli/devFind" target="_blank" rel="noreferrer">Add your profile?</a>
+            <a href="https://github.com/aftab515/HireTechTalent" target="_blank" rel="noreferrer">Add your profile?</a>
         </div>
     </div>
   );

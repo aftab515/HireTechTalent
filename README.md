@@ -19,37 +19,41 @@
 > Thank you for your interest in contributing to our open-source project! <br>
 
 ## Prerequisites 📝
+
 1. A GitHub account
 2. Git installed on your local development environment
 3. Node Package Manager (npm) installed on your local development environment
 4. pnpm installed on your local development environment
 
 ## How to Install Git
+
 Git is a version control system that is used to manage the source code of your project.
 
 To install Git, follow these steps:
-1. Download and install Git from the [Official Website](https://git-scm.com/downloads)
+1. Download and install Git from the [Official Website](https://git-scm.com/downloads).
 2. Open the terminal or command prompt on your local development environment
 3. Verify the installation of Git by running the following command: 
 **`git --version`**
 
 ## How to Install npm
+
 npm (Node Package Manager) is a package manager for JavaScript programming language and is used to manage the packages that are required by your project. 
 
 To install npm, follow these steps:
-1. Download and install Node.js from the [Official Website](https://nodejs.org/en/download/)
+1. Download and install Node.js from the [Official Website](https://nodejs.org/en/download/).
 2. Open the terminal or command prompt on your local development environment
 3. Verify that npm has been installed by running the command: **`npm -v`**
 
 ## How to Install pnpm
+
 To install project dependencies, please make sure you have pnpm installed on your machine. pnpm is another package manager for Node.js, which is used by this project.
 
 To install pnpm, follow these steps:
+
 1. Open the terminal or command prompt on your local development environment.
 2. Run the following command: **`npm install -g pnpm`**
 
 Once pnpm is installed, you can navigate to the project directory and run the following command to install the project dependencies: **`pnpm install`**
-
 
 ## Steps to Add Your Profile Data
 
@@ -57,13 +61,13 @@ Once pnpm is installed, you can navigate to the project directory and run the fo
 2. Clone the forked repository: To clone the repository to your local development environment, open the terminal or command prompt and run the following command: 
 **`git clone https://github.com/<your-github-username>/<repository-name>.git`**
 
-3. Install dependencies: To install the necessary dependencies for the project, navigate to the project directory and run the following command: 
+3. Install dependencies: To install the necessary dependencies for the project, navigate to the project directory and run the following command:
 **`pnpm install`**
 4. Navigate to the **`public/data`** folder in your project directory.
-5. Create a new JSON file named **`your_github_username.json`** (replace your_github_username with your actual GitHub username). 
+5. Create a new JSON file named **`your_github_username.json`** (replace your_github_username with your actual GitHub username).
 6. Open the file you just created.
 7. Add the following JSON object, replacing the placeholder values with your own details:
-    
+
     ```json
    {
      "name": "Your Name",
@@ -81,7 +85,7 @@ Once pnpm is installed, you can navigate to the project directory and run the fo
    ```
 8. Save the **`your_github_username.json`** file.
 9. Navigate to the **`src`** folder in your project directory. Open the **`ProfilesList.json`** file.
-11. Add your JSON filename (your_github_username.json) to the array of filenames in the ProfileList.json file, like this:
+10. Add your JSON filename (your_github_username.json) to the array of filenames in the ProfileList.json file, like this:
     ```json
     [
       "filename1.json",
@@ -90,16 +94,16 @@ Once pnpm is installed, you can navigate to the project directory and run the fo
     ]
 
     ```
-12. Save the **`ProfileLists.json`** file. 
-13. Create a new branch: To create a new branch for your profile, run the following command:
+11. Save the **`ProfileLists.json`** file. 
+12. Create a new branch: To create a new branch for your profile, run the following command:
 **`git checkout -b add-profile`**
-14. Commit your changes: To save your changes to the branch, run the following command: 
+13. Commit your changes: To save your changes to the branch, run the following command: 
 **`git commit -m "add: <your-name>"`**
-15. Push to the branch: To push the changes to the remote repository, run the following command: 
+14. Push to the branch: To push the changes to the remote repository, run the following command: 
 **`git push origin add-profile`**
-16. Create a pull request: To submit your changes to the main repository, create a pull request by clicking on the "Compare & pull request" button on your forked repository page.
-17. Wait for review and merge: Wait for the project maintainers to review and merge your changes.
-18. Once your changes are merged, your profile data will be added to the project's **`Profile.json`** file and your profile will be displayed on the project's website.
+15. Create a pull request: To submit your changes to the main repository, create a pull request by clicking on the "Compare & pull request" button on your forked repository page.
+16. Wait for review and merge: Wait for the project maintainers to review and merge your changes.
+17. Once your changes are merged, your profile data will be added to the project's **`Profile.json`** file and your profile will be displayed on the project's website.
 
 ## Contributing 👨‍💻
 
@@ -115,4 +119,5 @@ Contributions make the open source community such an amazing place to learn, ins
 ## Support 🙏
 
 Thank you for contributing to our open-source project! We appreciate your support 🚀 <br>
-Don't forget to leave a star⭐
+
+### Don't forget to leave a star⭐
