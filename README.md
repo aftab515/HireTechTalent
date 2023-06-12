@@ -6,11 +6,11 @@
 ## About 🚀
 
 1. **`HireTechTalent`** is an open source project that aims to create a platform for developers to showcase their skills and connect with potential collaborators, all in a user-friendly and searchable format.
-2.  With **`HireTechTalent`**, developers can create their profiles in JSON format, which are then displayed on the web for others to discover.
+2. With **`HireTechTalent`**, developers can create their profiles in JSON format, which are then displayed on the web for others to discover.
 
 ## Features 💪
 
-1.  One of the key features of **`HireTechTalent`** is its powerful search functionality.
+1. One of the key features of **`HireTechTalent`** is its powerful search functionality.
 2. Users can search for developers based on specific skills, locations or name, making it easy to find developers with expertise in a particular technology or programming language.
 3. This makes **`HireTechTalent`** a valuable resource for project managers, recruiters, and anyone looking to connect with skilled developers for collaboration or employment opportunities.
 
